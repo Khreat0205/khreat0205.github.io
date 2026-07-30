@@ -1,0 +1,140 @@
+cv:
+  name: Kyeonghun Jeong
+  label: Bioinformatics and Machine Learning Researcher
+  email: scientist0205@snu.ac.kr
+  location: Seoul, Republic of Korea
+  image: ""
+  summary: Bioinformatics researcher working on machine learning for single-cell omics and clinical multi-omics studies.
+
+  social_networks:
+    - network: GitHub
+      username: khreat0205
+    - network: LinkedIn
+      username: kyeonghun-jeong-8bb573183
+    - network: Google Scholar
+      username: L69WWTQAAAAJ
+
+  sections:
+    Education:
+      - institution: Seoul National University
+        location: Seoul, Republic of Korea
+        area: Interdisciplinary Program in Bioengineering
+        studyType: Ph.D.
+        start_date: 2021-03
+        end_date: Present
+        highlights:
+          - "Research interest: Bioinformatics"
+          - "Advisors: Prof. Kwangsoo Kim and Prof. Jinwook Choi"
+
+      - institution: Korea University
+        location: Seoul, Republic of Korea
+        area: Division of Life Sciences
+        studyType: B.S.
+        start_date: 2010-03
+        end_date: 2018-02
+
+    Experience:
+      - company: Seoul National University Hospital
+        position: Bioinformatics Researcher, Cancer Research Institute
+        location: Seoul, Republic of Korea
+        start_date: 2020-05
+        end_date: 2021-01
+        highlights:
+          - "Advisor: Prof. Seock-Ah Im"
+
+      - company: Seoul National University Hospital
+        position: Bioinformatics Researcher, Biomedical Research Institute, Division of Clinical Bioinformatics
+        location: Seoul, Republic of Korea
+        start_date: 2017-07
+        end_date: 2019-02
+        highlights:
+          - "Advisor: Prof. Kwangsoo Kim"
+
+    Conference Presentations:
+      - bullet: "**scDSTL: Leveraging Foundation Model Representations for Task-Specific Single-Cell Analysis.** Kyeonghun Jeong, Donghee Kim, Kwangsoo Kim. Poster presentation at the 29th Annual International Conference on Research in Computational Molecular Biology (RECOMB 2025), Seoul, Republic of Korea."
+
+    Projects:
+      - name: AI-based Non-invasive Diagnosis System for Glomerular Diseases
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Developed a machine learning classifier for glomerular disease subtyping.
+          - Manuscript in preparation.
+
+      - name: COVID-19 Multi-omics Integration Analysis and Prognosis Prediction Model Development
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - Converted cell-cell interaction activity into sample-level CCI-GSVA scores for COVID-19 patient subtyping.
+          - Published in Scientific Reports.
+
+      - name: Tumor Methylation as Predictive Biomarker for Immunotherapy
+        start_date: 2021
+        end_date: 2021
+        highlights:
+          - Analyzed pan-cancer DNA methylation and its association with tumor immunogenicity.
+          - Supported by Personalized Healthcare Innovation Medical Science Education Research Group.
+          - Published in Cancer Immunology, Immunotherapy.
+
+      - name: FIRST-Cancer Panel Enhancement, Commercialization and Clinical Trial
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - Developed a homologous repair deficiency score for breast cancer.
+          - Built a computational framework to identify defects in DNA damage response pathways.
+          - Published in Scientific Reports.
+
+      - name: Anti-cancer Drug Resistance Kinome Profiling
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - Developed kinome-targeting strategies for clinical application.
+          - Analyzed mechanisms of paclitaxel resistance in triple-negative breast cancer.
+          - Published in Journal of Breast Cancer.
+
+      - name: Mechanism of CASQ2 Calcium-binding Protein in Breast Cancer Metastasis
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - Studied calcium signaling pathways associated with breast cancer metastasis.
+          - Published in Journal of Breast Cancer.
+
+    Awards:
+      - title: Gold Medal, International Genetically Engineered Machine (iGEM)
+        date: 2016
+        awarder: iGEM
+        summary: "Geletricell: Agar Utilizing Dualcore EMFC. Advisor: Prof. In-Geol Choi."
+
+      - title: Gold Medal, International Genetically Engineered Machine (iGEM)
+        date: 2015
+        awarder: iGEM
+        summary: "The Gil: The pathfinder for Synthetic Biologists. Advisor: Prof. In-Geol Choi."
+
+      - title: Creative Challenger Scholarships (CCP)
+        date: 2015-2016
+        awarder: Korea University
+        summary: Projects on bacterial growth modeling using MATLAB and computational metabolic pathway exploration.
+
+      - title: Future Leaders Development Program Scholarship
+        date: 2015
+        awarder: Korea University
+
+    Skills:
+      - name: Computational Biology
+        icon: fa-solid fa-dna
+        keywords: "Single-cell omics, NGS analysis, systems biology, bioinformatics"
+
+      - name: Machine Learning
+        icon: fa-solid fa-diagram-project
+        keywords: "Weak supervision, multiple-instance learning, foundation-model adaptation, predictive modeling"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, R, shell scripting"
+
+    References:
+      - name: Prof. Kwangsoo Kim
+        reference: "Associate Professor, Department of Transdisciplinary Medicine, Institute of Convergence Medicine with Innovative Technology, Seoul National University Hospital; Adjunct Associate Professor, Department of Medicine, College of Medicine, Seoul National University. Email: kwangsookim@snu.ac.kr"
+
+      - name: Prof. Jinwook Choi
+        reference: "Professor, Interdisciplinary Program in Bioengineering, Seoul National University. Email: jinchoi@snu.ac.kr"

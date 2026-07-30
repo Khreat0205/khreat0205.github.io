@@ -1,0 +1,316 @@
+.cv {
+  --cv-muted-border: color-mix(in srgb, var(--global-divider-color) 78%, transparent);
+  margin-top: 0.5rem;
+}
+
+.cv,
+.cv * {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  body:has(.cv) > .container.mt-5 {
+    max-width: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 94vw;
+  }
+
+  body:has(.cv) > .container.mt-5 > .row > .col-sm-3 {
+    flex: 0 0 clamp(12rem, 15vw, 15rem);
+    max-width: clamp(12rem, 15vw, 15rem);
+  }
+
+  body:has(.cv) > .container.mt-5 > .row > .col-sm-9 {
+    flex: 1 1 0;
+    max-width: none;
+  }
+}
+
+.cv .card {
+  border-color: var(--cv-muted-border);
+  border-radius: 6px;
+  box-shadow: none;
+  max-width: 100%;
+  overflow: visible;
+  width: 100%;
+}
+
+.cv .card p,
+.cv .card h6,
+.cv .card li,
+.cv .card td,
+.cv .card span.item,
+.cv .skill-item {
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.cv .title {
+  font-size: 1.14rem;
+  line-height: 1.42;
+}
+
+.cv .card + .card {
+  margin-top: 1rem !important;
+}
+
+.cv .card-title {
+  font-size: clamp(1.8rem, 2.65vw, 2.25rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.cv ul.card-text > li.list-group-item {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.cv ul.card-text > li.list-group-item::marker {
+  content: "";
+}
+
+.cv ul.card-text {
+  padding-left: 0;
+}
+
+.cv .list-group-item .row {
+  column-gap: 1.25rem;
+  display: grid;
+  grid-template-columns: minmax(8.75rem, 9.25rem) minmax(0, 1fr);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cv .list-group-item .row > [class*="col-"] {
+  max-width: none;
+  min-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: auto;
+}
+
+.cv .date-column {
+  text-align: left !important;
+  transform: none;
+}
+
+.cv .title,
+.cv h6,
+.cv p,
+.cv li,
+.cv td,
+.cv span.item {
+  overflow-wrap: anywhere;
+}
+
+.cv table.table-cv {
+  width: 100%;
+}
+
+.cv .date-column table.table-cv,
+.cv .date-column table.table-cv td:first-child {
+  width: 100%;
+}
+
+.cv .card .badge,
+.cv .card .list-group-item .badge,
+.cv .card .danger-color-dark,
+.cv .badge {
+  background-color: #4b5563 !important;
+  border-radius: 4px;
+  color: #fff !important;
+  letter-spacing: 0;
+}
+
+.cv .items {
+  margin-top: 0.45rem;
+  padding-left: 1.25rem;
+}
+
+.cv .skill-item {
+  line-height: 1.55;
+  padding: 0.45rem 0;
+}
+
+.cv .skill-item i {
+  color: var(--global-theme-color);
+  margin-right: 0.35rem;
+}
+
+.cv #references + .card p {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1399.98px) {
+  .cv .list-group-item .row {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cv .list-group-item .row > [class*="col-"] {
+    max-width: 100%;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .cv .date-column,
+  .cv .list-group-item .row > .text-center:first-child {
+    margin-bottom: 0.75rem;
+    text-align: left !important;
+    width: 100%;
+  }
+
+  .cv .date-column table.table-cv,
+  .cv .list-group-item .row > .text-center:first-child table.table-cv {
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .cv p.location {
+    margin: 0.35rem 0 0;
+    white-space: normal;
+  }
+
+  .cv h6.ml-1,
+  .cv h6.ml-md-4 {
+    margin-left: 0 !important;
+  }
+
+  .cv .list-group-item .row h6 {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.fixed-top-nav {
+    padding-top: 68px;
+  }
+
+  .cv .card {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    padding: 1rem !important;
+  }
+
+  .cv .card-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .cv table.table-cv,
+  .cv table.table-cv tbody,
+  .cv table.table-cv tr,
+  .cv table.table-cv td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .cv table.table-cv tr + tr {
+    margin-top: 0.65rem;
+  }
+
+  .cv table.table-cv td {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .cv table.table-cv td:first-child {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0.1rem;
+  }
+
+  .cv .list-group-item .row {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cv .list-group-item .row > [class*="col-"] {
+    max-width: 100%;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .cv .card p,
+  .cv .card h6,
+  .cv .card li,
+  .cv .card td,
+  .cv .card span.item,
+  .cv .skill-item {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .cv .date-column {
+    margin-bottom: 0.7rem;
+    width: 100%;
+  }
+
+  .cv .date-column table.table-cv {
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .cv .date-column table.table-cv td:first-child {
+    margin-bottom: 0;
+  }
+
+  .cv p.location {
+    font-size: 1rem;
+    margin: 0.25rem 0 0;
+    white-space: normal;
+  }
+
+  .cv .title {
+    font-size: 1.12rem;
+    line-height: 1.42;
+  }
+
+  .cv p,
+  .cv li,
+  .cv td,
+  .cv span.item {
+    font-size: 1.05rem;
+  }
+
+  .cv h6.ml-1,
+  .cv h6.ml-md-4 {
+    margin-left: 0 !important;
+  }
+
+  .cv .items {
+    padding-left: 1.1rem;
+  }
+}
+
+/* Keep long locations inside the date column at every browser zoom level. */
+.cv .date-column table.table-cv {
+  max-width: 100%;
+  table-layout: fixed;
+  width: 100% !important;
+}
+
+.cv .date-column table.table-cv td {
+  max-width: 100%;
+  width: 100% !important;
+}
+
+.cv p.location {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0.35rem 0 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  white-space: normal !important;
+}
