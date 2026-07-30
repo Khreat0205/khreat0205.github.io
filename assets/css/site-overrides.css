@@ -407,6 +407,12 @@ ol.bibliography .title .publication-title-link:focus-visible {
 
 ol.bibliography .author { color: var(--global-text-color-light); font-size: 0.95em; margin-top: 2px; }
 ol.bibliography .author a { color: inherit; }
+ol.bibliography .author em {
+  border-bottom: 0 !important;
+  color: var(--global-theme-color);
+  font-style: normal;
+  font-weight: 600;
+}
 ol.bibliography .periodical { color: var(--global-text-color-light); font-size: 0.9em; }
 ol.bibliography .periodical em { font-style: italic; }
 
