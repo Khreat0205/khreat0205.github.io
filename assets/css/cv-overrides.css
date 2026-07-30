@@ -8,25 +8,6 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 1200px) {
-  body:has(.cv) > .container.mt-5 {
-    max-width: none;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    width: 94vw;
-  }
-
-  body:has(.cv) > .container.mt-5 > .row > .col-sm-3 {
-    flex: 0 0 clamp(12rem, 15vw, 15rem);
-    max-width: clamp(12rem, 15vw, 15rem);
-  }
-
-  body:has(.cv) > .container.mt-5 > .row > .col-sm-9 {
-    flex: 1 1 0;
-    max-width: none;
-  }
-}
-
 .cv .card {
   border-color: var(--cv-muted-border);
   border-radius: 6px;
