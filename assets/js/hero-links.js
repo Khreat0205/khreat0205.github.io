@@ -7,18 +7,22 @@
     {
       label: "Email",
       href: "mailto:scientist0205@snu.ac.kr",
+      icon: "fa-solid fa-envelope",
     },
     {
       label: "Scholar",
       href: "https://scholar.google.com/citations?user=L69WWTQAAAAJ",
+      icon: "fa-solid fa-graduation-cap",
     },
     {
       label: "GitHub",
       href: "https://github.com/khreat0205",
+      icon: "fa-brands fa-github",
     },
     {
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/kyeonghun-jeong-8bb573183",
+      icon: "fa-brands fa-linkedin",
     },
   ];
 
@@ -31,11 +35,19 @@
     nav.className = "hero-links";
     nav.setAttribute("aria-label", "Profile links");
 
-    links.forEach(({ label, href }) => {
+    links.forEach(({ label, href, icon }) => {
       const anchor = document.createElement("a");
       anchor.className = "hero-link";
       anchor.href = href;
-      anchor.textContent = label;
+
+      const iconElement = document.createElement("i");
+      iconElement.className = icon;
+      iconElement.setAttribute("aria-hidden", "true");
+
+      const labelElement = document.createElement("span");
+      labelElement.textContent = label;
+
+      anchor.append(iconElement, labelElement);
 
       if (!href.startsWith("mailto:")) {
         anchor.target = "_blank";
