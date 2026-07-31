@@ -1,3 +1,67 @@
 metadata:
-  last_updated:
-papers: {}
+  last_updated: '2026-07-31'
+papers:
+  L69WWTQAAAAJ:2osOgNQ5qMEC:
+    citations: 9
+    title: Protein Phosphatase 1H, cyclin-dependent kinase inhibitor p27, and cyclin-dependent kinase 2 in paclitaxel resistance for triple negative breast cancers
+    year: '2020'
+  L69WWTQAAAAJ:9yKSN-GCB0IC:
+    citations: 177
+    title: Tumor suppressor miRNA-204-5p regulates growth, metastasis, and immune microenvironment remodeling in breast cancer
+    year: '2019'
+  L69WWTQAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: Methylation landscape of cancers associated with immunogenicity
+    year: '2019'
+  L69WWTQAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: Metabolic signals regulate resuscitation speed of antibiotic persister bacteria during infection
+    year: '2026'
+  L69WWTQAAAAJ:Tyk-4Ss8FVUC:
+    citations: 31
+    title: Mutations of TP53 and genes related to homologous recombination repair in breast cancer with germline BRCA1/2 mutations
+    year: '2023'
+  L69WWTQAAAAJ:UeHWp8X0CEIC:
+    citations: 6
+    title: Pan-cancer methylation analysis reveals an inverse correlation of tumor immunogenicity with methylation aberrancy
+    year: '2021'
+  L69WWTQAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: Systemic Proteome Profiling to Differentiate Primary Glomerular Diseases
+    year: '2026'
+  L69WWTQAAAAJ:WF5omc3nYNoC:
+    citations: 12
+    title: 'Plasma cell-free DNA in uterine cervical cancer: therapeutic monitoring and prognostic values after radical radiotherapy'
+    year: '2022'
+  L69WWTQAAAAJ:Y0pCki6q_DkC:
+    citations: 1
+    title: Expression profiles of Hypoxia-Related genes of cancers originating from anatomically similar locations using TCGA database analysis
+    year: '2023'
+  L69WWTQAAAAJ:YsMSGLbcyi4C:
+    citations: 3
+    title: Subtyping of COVID-19 samples based on cell-cell interaction in single cell transcriptomes
+    year: '2023'
+  L69WWTQAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: 'scTELL: A Single-Cell ATAC-seq Tool for Locus-Specific Transposable Element Identification in Chromatin Accessibility'
+    year: '2025'
+  L69WWTQAAAAJ:eQOLeE2rZwMC:
+    citations: 1
+    title: 'scMILD: Single-cell multiple instance learning for sample classification and associated subpopulation discovery'
+    year: '2026'
+  L69WWTQAAAAJ:qjMakFHDy7sC:
+    citations: 35
+    title: Homologous repair deficiency score for identifying breast cancers with defective DNA damage response
+    year: '2020'
+  L69WWTQAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: 'scUnify: A Unified Framework for Zero-shot Inference of Single-Cell Foundation Models'
+    year: '2026'
+  L69WWTQAAAAJ:u-x6o8ySG0sC:
+    citations: 4
+    title: Comparison of clinical performance of two high-throughput liquid bead microarray assays, GeneFinder and CareGENE, for cervical screening in the general population
+    year: '2019'
+  L69WWTQAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: 'Large-Scale Systemic Proteome Profiling of More Than 5,000 Proteins to Differentiate Primary Glomerular Diseases: FR-OR016'
+    year: '2025'
