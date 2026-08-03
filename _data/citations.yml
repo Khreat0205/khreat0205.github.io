@@ -1,9 +1,9 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-03'
 papers:
   L69WWTQAAAAJ:2osOgNQ5qMEC:
     citations: 9
-    title: Protein Phosphatase 1H, cyclin-dependent kinase inhibitor p27, and cyclin-dependent kinase 2 in paclitaxel resistance for triple negative breast cancers
+    title: Protein phosphatase 1H, cyclin-dependent kinase inhibitor p27, and cyclin-dependent kinase 2 in paclitaxel resistance for triple negative breast cancers
     year: '2020'
   L69WWTQAAAAJ:9yKSN-GCB0IC:
     citations: 177
@@ -18,7 +18,7 @@ papers:
     title: Metabolic signals regulate resuscitation speed of antibiotic persister bacteria during infection
     year: '2026'
   L69WWTQAAAAJ:Tyk-4Ss8FVUC:
-    citations: 31
+    citations: 32
     title: Mutations of TP53 and genes related to homologous recombination repair in breast cancer with germline BRCA1/2 mutations
     year: '2023'
   L69WWTQAAAAJ:UeHWp8X0CEIC:
@@ -32,7 +32,7 @@ papers:
   L69WWTQAAAAJ:WF5omc3nYNoC:
     citations: 12
     title: 'Plasma cell-free DNA in uterine cervical cancer: therapeutic monitoring and prognostic values after radical radiotherapy'
-    year: '2022'
+    year: '2023'
   L69WWTQAAAAJ:Y0pCki6q_DkC:
     citations: 1
     title: Expression profiles of Hypoxia-Related genes of cancers originating from anatomically similar locations using TCGA database analysis
@@ -43,14 +43,14 @@ papers:
     year: '2023'
   L69WWTQAAAAJ:_FxGoFyzp5QC:
     citations: 0
-    title: 'scTELL: A Single-Cell ATAC-seq Tool for Locus-Specific Transposable Element Identification in Chromatin Accessibility'
-    year: '2025'
+    title: 'scTELL: a single-cell ATAC-seq tool for locus-specific transposable element identification in chromatin accessibility'
+    year: '2026'
   L69WWTQAAAAJ:eQOLeE2rZwMC:
     citations: 1
     title: 'scMILD: Single-cell multiple instance learning for sample classification and associated subpopulation discovery'
     year: '2026'
   L69WWTQAAAAJ:qjMakFHDy7sC:
-    citations: 35
+    citations: 36
     title: Homologous repair deficiency score for identifying breast cancers with defective DNA damage response
     year: '2020'
   L69WWTQAAAAJ:roLk4NBRz8UC:
@@ -59,7 +59,7 @@ papers:
     year: '2026'
   L69WWTQAAAAJ:u-x6o8ySG0sC:
     citations: 4
-    title: Comparison of clinical performance of two high-throughput liquid bead microarray assays, GeneFinder and CareGENE, for cervical screening in the general population
+    title: 'Comparison of clinical performance of two high-throughput liquid bead microarray assays, GeneFinder and CareGENE, for cervical screening in the general population: JH Moon et al.'
     year: '2019'
   L69WWTQAAAAJ:ufrVoPGSRksC:
     citations: 0
