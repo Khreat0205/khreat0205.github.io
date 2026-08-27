@@ -186,24 +186,15 @@ body {
   content: none;
 }
 
-.post article > .clearfix > .profile {
-  float: right;
-  margin: 0 0 1.25rem 2rem;
+.profile {
+  margin-left: 2rem;
   max-width: 208px;
-  width: 208px;
-}
-
-.profile figure {
-  margin: 0;
 }
 
 .profile img {
   border: 1px solid var(--global-divider-color);
   border-radius: 14px !important;
   box-shadow: none !important;
-  display: block;
-  height: auto;
-  width: 100%;
 }
 
 .profile .more-info {
@@ -270,11 +261,10 @@ body {
     white-space: normal;
   }
 
-  .post article > .clearfix > .profile {
+  .profile {
     float: none !important;
-    margin: 0 auto 1.25rem;
+    margin: 0 0 1.25rem;
     max-width: 160px;
-    width: 160px;
   }
 }
 

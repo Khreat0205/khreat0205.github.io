@@ -33,12 +33,39 @@ latest_posts:
     margin-bottom: 1.25rem;
   }
 
+  .post article > .clearfix > .profile {
+    float: right;
+    margin: 0 0 1.25rem 2rem;
+    max-width: 208px;
+    width: 208px;
+  }
+
+  .profile figure {
+    margin: 0;
+  }
+
+  .profile img {
+    border-radius: 14px;
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
   .post article > h2 {
     margin-top: 2.2rem;
   }
 
   .post article > .publications {
     margin-top: 1.6rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .post article > .clearfix > .profile {
+      float: none;
+      margin: 0 auto 1.25rem;
+      max-width: 160px;
+      width: 160px;
+    }
   }
 </style>
 
