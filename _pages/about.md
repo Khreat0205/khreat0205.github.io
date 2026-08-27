@@ -7,6 +7,11 @@ subtitle: Machine Learning for Single-Cell Analysis and Clinical Omics
 selected_papers: true
 social: false
 
+profile:
+  align: right
+  image: kyeonghun_jeong_profile.jpg
+  image_circular: false
+
 announcements:
   enabled: false
   scrollable: true
