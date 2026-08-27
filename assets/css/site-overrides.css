@@ -158,6 +158,17 @@ body {
   content: none;
 }
 
+.profile {
+  margin-left: 2rem;
+  max-width: 208px;
+}
+
+.profile img {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px !important;
+  box-shadow: none !important;
+}
+
 @media (max-width: 575.98px) {
   .post-header .post-title {
     font-size: clamp(2.35rem, 13vw, 3.15rem);
@@ -205,6 +216,12 @@ body {
 
   .publication-tag {
     white-space: normal;
+  }
+
+  .profile {
+    float: none !important;
+    margin: 0 0 1.25rem;
+    max-width: 160px;
   }
 }
 
