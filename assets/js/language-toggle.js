@@ -79,6 +79,7 @@
     "Co-first author (equal contribution)": "공동 제1저자 (동등 기여)",
     "First author": "제1저자",
     "Preprint": "프리프린트",
+    "Preprint; Co-corresponding author": "프리프린트; 공동 교신저자",
     Method: "방법론",
     Collaborative: "협업연구",
     "Single-cell": "단일세포",
