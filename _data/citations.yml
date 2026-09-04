@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-09-04'
 papers:
   L69WWTQAAAAJ:2osOgNQ5qMEC:
     citations: 9
     title: Protein phosphatase 1H, cyclin-dependent kinase inhibitor p27, and cyclin-dependent kinase 2 in paclitaxel resistance for triple negative breast cancers
     year: '2020'
   L69WWTQAAAAJ:9yKSN-GCB0IC:
-    citations: 178
+    citations: 179
     title: Tumor suppressor miRNA-204-5p regulates growth, metastasis, and immune microenvironment remodeling in breast cancer
     year: '2019'
   L69WWTQAAAAJ:IjCSPb-OGe4C:
@@ -18,7 +18,7 @@ papers:
     title: Metabolic signals regulate resuscitation speed of antibiotic persister bacteria during infection
     year: '2026'
   L69WWTQAAAAJ:Tyk-4Ss8FVUC:
-    citations: 32
+    citations: 33
     title: Mutations of TP53 and genes related to homologous recombination repair in breast cancer with germline BRCA1/2 mutations
     year: '2023'
   L69WWTQAAAAJ:UeHWp8X0CEIC:
@@ -54,8 +54,8 @@ papers:
     title: Homologous repair deficiency score for identifying breast cancers with defective DNA damage response
     year: '2020'
   L69WWTQAAAAJ:roLk4NBRz8UC:
-    citations: 0
-    title: 'scUnify: a unified framework for training and inference across multiple single-cell foundation models'
+    citations: 1
+    title: 'scUnify: A Unified Framework for Zero-shot Inference of Single-Cell Foundation Models'
     year: '2026'
   L69WWTQAAAAJ:u-x6o8ySG0sC:
     citations: 4
