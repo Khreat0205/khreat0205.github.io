@@ -87,7 +87,10 @@
 {% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap">
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap"
+>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="stylesheet" href="{{ '/assets/css/site-overrides.css' | relative_url | bust_file_cache }}">
 {% if page.layout == 'cv' and site.plugins contains 'al_folio_cv' and site.al_folio.features.cv.enabled != false %}
@@ -96,7 +99,13 @@
 {% endif %}
 <script defer src="{{ '/assets/js/publication-tags.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/hero-links.js' | relative_url | bust_file_cache }}"></script>
+<script defer src="{{ '/assets/js/language-toggle.js' | relative_url | bust_file_cache }}"></script>
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% if page.url == '/' or page.url == '/kor/' %}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ '/kor/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% endif %}
 
 {% if site.enable_darkmode %}
   <!-- Dark Mode -->
