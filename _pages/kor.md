@@ -20,7 +20,14 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .post-header .post-title {
+    display: none;
+  }
+</style>
+
 <div class="kor-profile-identifiers" lang="ko">
+  <h1 class="kor-profile-name">정경훈</h1>
   <p class="kor-profile-english-name" lang="en">Kyeonghun Jeong</p>
   <p class="kor-profile-affiliations">고려대학교 · 서울대학교 · 서울대학교병원</p>
 </div>
