@@ -32,11 +32,18 @@
   }
 
   function translateName(language) {
-    textNodes(document.body).forEach((node) => {
-      const original = originalText(node);
-      if (original.trim() === "Kyeonghun Jeong") {
-        node.nodeValue = language === "ko" ? original.replace("Kyeonghun Jeong", "정경훈") : original;
-      }
+    const profileNameRoots = [
+      ...document.querySelectorAll(".navbar-brand.title, .post-header .post-title, [data-profile-name]"),
+      document.querySelector(".cv .card"),
+    ].filter(Boolean);
+
+    profileNameRoots.forEach((root) => {
+      textNodes(root).forEach((node) => {
+        const original = originalText(node);
+        if (original.trim() === "Kyeonghun Jeong") {
+          node.nodeValue = language === "ko" ? original.replace("Kyeonghun Jeong", "정경훈") : original;
+        }
+      });
     });
   }
 
