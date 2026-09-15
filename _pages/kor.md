@@ -2,7 +2,7 @@
 layout: about
 title: 정경훈
 permalink: /kor/
-description: 정경훈 (Kyeonghun Jeong) 연구자 프로필 — 고려대학교, 서울대학교, 서울대학교병원; bioinformatics, single-cell omics, and machine learning.
+description: 정경훈 (Kyeonghun Jeong) 연구자 프로필 — bioinformatics, single-cell omics, and machine learning.
 lang: ko
 nav: false
 selected_papers: true
@@ -27,9 +27,7 @@ latest_posts:
 </style>
 
 <div class="kor-profile-identifiers" lang="ko">
-  <h1 class="kor-profile-name">정경훈</h1>
-  <p class="kor-profile-english-name" lang="en">Kyeonghun Jeong</p>
-  <p class="kor-profile-affiliations">고려대학교 · 서울대학교 · 서울대학교병원</p>
+  <h1 class="kor-profile-name" data-profile-name>Kyeonghun Jeong</h1>
 </div>
 
 <div lang="en" markdown="1">

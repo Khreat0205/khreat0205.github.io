@@ -47,7 +47,7 @@ body {
 }
 
 .language-switcher .language-button.active,
-.language-switcher .language-button[aria-current="page"] {
+.language-switcher .language-button[aria-pressed="true"] {
   background: var(--global-theme-color);
   border-color: var(--global-theme-color);
   color: var(--global-card-bg-color);
@@ -61,7 +61,7 @@ body {
 }
 
 .language-switcher .language-button.active:hover,
-.language-switcher .language-button[aria-current="page"]:hover {
+.language-switcher .language-button[aria-pressed="true"]:hover {
   color: var(--global-card-bg-color);
 }
 
@@ -362,10 +362,6 @@ h1, h2, h3, h4, .post-title, .cv .card-title {
   margin: 0 0 1.45rem;
 }
 
-.kor-profile-identifiers p {
-  margin-bottom: 0.2rem;
-}
-
 .kor-profile-name {
   color: var(--global-text-color);
   font-family: "Nanum Myeongjo", Newsreader, Georgia, "Times New Roman", serif;
@@ -373,20 +369,6 @@ h1, h2, h3, h4, .post-title, .cv .card-title {
   font-weight: 600;
   line-height: 1.06;
   margin: 0 0 0.45rem;
-}
-
-.kor-profile-english-name {
-  color: var(--global-text-color);
-  font-family: Newsreader, Georgia, "Times New Roman", serif;
-  font-size: 1.08rem;
-  font-weight: 500;
-}
-
-.kor-profile-affiliations {
-  color: var(--global-text-color-light);
-  font-family: "Nanum Gothic", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.98rem;
-  word-break: keep-all;
 }
 
 @media (max-width: 575.98px) {
